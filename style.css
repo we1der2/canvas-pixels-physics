@@ -1,18 +1,35 @@
 * {
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#canvas1{
-    position: absolute;
+#canvas1 {
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .controls {
-    position: absolute;
-    z-index: 100;
+  position: absolute;
+  z-index: 100;
 }
 
-#image1 {
-    display: none;
+#image1,
+#image2 {
+  display: none;
+}
+
+button {
+  font-family: "Bangers", cursive;
+  padding: 10px;
+  font-size: 40px;
+  margin: 20px;
+  color: white;
+  background: black;
+  transition: 0.2s;
+}
+button:hover {
+  color: black;
+  background: white;
 }
